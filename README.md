@@ -32,7 +32,7 @@ Layers that Ribosome can generate for you :
 3. Build the link between DAL and API to get a working software, that is compatible with [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)/[ROA](https://en.wikipedia.org/wiki/Resource-oriented_architecture), [micro-service architecture](https://en.wikipedia.org/wiki/Microservices)! 
 The application can also be used with a data lake.
 
-Every layers manage logging events and are async compatible. Also everything is extendable if you want to specify the behavior(s) of the written application.
+Every layers manage logging events and are async compatible. Also everything is extendable if you want to specify the behaviors of the written application.
 
 ## Getting started
 [Go to the wiki](https://github.com/synodetechnologies/Ribosome/wiki)
