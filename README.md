@@ -1,33 +1,37 @@
 # Ribosome
-Ribosome is a new code generation tools that will help you achieve success with your software projects, by generating for you the 3 commons layers of a software : DAL, API, the link between.
+Ribosome is a new AI code generation that will help you achieve success with your software projects, by generating for you the 3 commons layers of a software : Data managing, API exposition, the link between. You give him the specifications and he writes the code for you a functionnal application in a few minutes.
 
-He's working with AspNetCore and EntityFrameworkCore and he will be compatible with AspMvc, WebApi and EntityFramework 6 soon.
+He's working with AspNetCore and EntityFrameworkCore and he's compatible with AspMvc, WebApi and EntityFramework 6.
 
 ## Philosophy
 Ribosome do only what you tell him what to do, no more, no less :
-+ He delivers only the generic code of a software, business code will always remain to be the team project jobs.
-+ Tell Ribosome how to architect the code, because there is no unique software architecture that have all the answers.
-+ He write the code like a human with quality and as little as possible tech debt in mind, so that you can maintain it easily.
++ He delivers only the generic code of a software, business code will always remain to be the team project dev.
++ You tell Ribosome how to architect the code, because there is no unique software architecture that have all the answers.
++ He write the code like a human with quality and as little as possible tech debt in mind, so that you can maintain and extend it easily.
+
+You are the architect that give him the specification and he writes the code for you.
 
 ## What you get
 Layers that Ribosome can generate for you :
 
-1. Create a Data Access Layer (DAL) with an existing or a new DB
+1. Create a Data Cluster Manager with an existing or a new DB
+	+ Contain a DAL
 	+ Expose more than 13 methods for each DB Objects 
-	+ Synchronize by delta data cluster
+	+ Synchronize data cluster by delta
 	+ Have an audit-trail
+	+ All CRUD methods are driven by a fluent state machine
 
-2. Expose a CRUD API Restfull with
+2. API Cluser Manager with
+	+ Ressource oriented with CRUD methods that use HTTP verbs... with the respect of RFC 2616
+	+ Managing ressource cluster
 	+ Swagger compatible
 	+ HATEOAS link 
-	+ Versionning
-	+ Paginate
-	+ Sorts
-	+ Filters... with the respect of RFC 2616
+	+ Versionning, paginate, sorts, filters
+	+ Can be used directly with ASP / Angular
 	
-3. Build the link between DAL and API to get a working software!
+3. Build the link between DAL and API to get a working software, that is compatible with [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)/[ROA](https://en.wikipedia.org/wiki/Resource-oriented_architecture), micro-service architecture! The application can be used and/or feed a Datalake.
 
-Every layers manage logging events and are async compatible.
+Every layers manage logging events and are async compatible. Also everything is extendable if you want to specify the behavior(s) of the written application.
 
 ## Getting started
 [Go to the wiki](https://github.com/synodetechnologies/Ribosome/wiki)
