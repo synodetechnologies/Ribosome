@@ -1,5 +1,5 @@
 # Ribosome
-Ribosome is a new AI code generation that will help you achieve success with your software projects, by generating for you the 3 commons layers of a software : Data managing, API exposition, the link between. You give him the specifications and he writes the code for you a functionnal application in a few minutes.
+Ribosome is a new AI code generation at your service that will help you achieve success with your software projects, by generating for you the 3 commons layers of a software : Data managing, API exposition, the link between. You give him the specifications and he writes the code for you a functionnal application in a few minutes.
 
 He's working with AspNetCore and EntityFrameworkCore and he's compatible with AspMvc, WebApi and EntityFramework 6.
 
