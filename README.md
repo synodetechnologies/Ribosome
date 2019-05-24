@@ -14,14 +14,14 @@ You are the architect that give him the specification and he writes the code for
 ## What you get
 Layers that Ribosome can generate for you :
 
-1. Create a Data Cluster Manager with an existing or a new DB
-	+ Contain a DAL
-	+ Expose more than 13 methods for each DB Objects 
-	+ Synchronize data cluster by delta
-	+ Have an audit-trail
+1. Create a Data Cluster Manager with an existing or a new DB that :
+	+ Contain a full working DAL
 	+ All CRUD methods are driven by a fluent state machine
+	+ Synchronize data cluster by delta
+	+ Expose more than 13 methods for each DB Objects 
+	+ Have an audit-trail
 
-2. API Cluser Manager with
+2. API Cluser Manager with :
 	+ Ressource oriented with CRUD methods that use HTTP verbs... with the respect of RFC 2616
 	+ Managing ressource cluster
 	+ Swagger compatible
@@ -29,7 +29,8 @@ Layers that Ribosome can generate for you :
 	+ Versionning, paginate, sorts, filters
 	+ Can be used directly with ASP / Angular
 	
-3. Build the link between DAL and API to get a working software, that is compatible with [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)/[ROA](https://en.wikipedia.org/wiki/Resource-oriented_architecture), micro-service architecture! The application can be used and/or feed a Datalake.
+3. Build the link between DAL and API to get a working software, that is compatible with [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)/[ROA](https://en.wikipedia.org/wiki/Resource-oriented_architecture), [micro-service architecture](https://en.wikipedia.org/wiki/Microservices)! 
+The application can also be used with a data lake.
 
 Every layers manage logging events and are async compatible. Also everything is extendable if you want to specify the behavior(s) of the written application.
 
