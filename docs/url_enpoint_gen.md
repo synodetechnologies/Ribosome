@@ -1,5 +1,7 @@
 For this part we'll consider that the base url is : http://localhost:8080/apiV1/
+<br>
 The "root" resource is books
+<br>
 The "child" resource is authors
 
 # Root Class :
