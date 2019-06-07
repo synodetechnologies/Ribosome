@@ -6,7 +6,7 @@ The "child" resource is authors
 <br>
 For each case we have a corresponding API diagram
 
-# Root Class :
+# Root Route :
 ![Root API Model](https://github.com/synodetechnologies/Ribosome/blob/master/img/url_endpoint_books.JPG)
 + Get : [base url]/books/{book_id}   
 + List : [base url]/books/
@@ -14,7 +14,7 @@ For each case we have a corresponding API diagram
 + Update : [base url]/books/{book_id}
 + Delete : [base url]/books/{book_id}
 
-## Derived Root Class :
+## Derived Route RootRef :
 ![Root API Model and his Ref class](https://github.com/synodetechnologies/Ribosome/blob/master/img/url_endpoint_booksref.JPG)
 + **Relation 1<>***
   + GetByID : [base url]/another_root_resource/{id}/[...]/books/{book_id}
@@ -24,8 +24,8 @@ For each case we have a corresponding API diagram
 + **Relation 1<>0..1**
   + GetByID : [base url]/another_root_resource/{id}/[...]/books/{book_id}
   
-# Child Relations
-##  Normal Child Class :
+# Children Route Relations
+##  Normal Children Route :
 ![API Model](https://github.com/synodetechnologies/Ribosome/blob/master/img/url_endpoint_books_authors.JPG)
 + **Relation 1<>***
   + GetByID : [base url]/books/{book_id}/authors/{author_id}
@@ -42,7 +42,7 @@ For each case we have a corresponding API diagram
   + Update : [base url]/books/{book_id}/authors/{author_id}
   + Delete : [base url]/books/{book_id}/authors/{author_id}
       
-## Derived Child Class :
+## Ref Children Route :
 ![API Model](https://github.com/synodetechnologies/Ribosome/blob/master/img/url_endpoint_book_childref.JPG)
 + **Relation 1<>***
   + Add : [base url]/books/{book_id}/authors/{author_id}
