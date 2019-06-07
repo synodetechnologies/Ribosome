@@ -482,7 +482,7 @@
 + BusinessObjectsNamespace : The namespace for business object classes.
   + Required? : True, default value :
   
-  # RIBOSOME MODULE   
+# RIBOSOME MODULE   
 
 **AuditTrailObjects : create audit trail object classes.**
 + Namespace : The namespace for audit trail object classes.
